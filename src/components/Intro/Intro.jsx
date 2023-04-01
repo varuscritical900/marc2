@@ -1,6 +1,7 @@
 import React from 'react'
 import "./intro.css"
 import FloatingDiv from '../FloatingDiv/FloatingDiv'
+import {Link} from 'react-router-dom';
 import {motion} from 'framer-motion';
 
 const Intro = () => {
@@ -11,10 +12,10 @@ const Intro = () => {
       <div className="i-name">
         <span>Hiya! I Am</span>
         <span>Marc James Montero</span>
-        <span>Full-Stack Developer with high level of experience in web developing and deployment of the product</span>
+        <span>From front-end finesse to back-end brilliance, I'm a full-stack developer <br/>ready to code my way to the top</span>
       </div>
       {/* <button className="button i-button">Hire me</button> */}
-      <a href="" target="_blank" className='btn btn-warning w-25 text-light'>Hire me</a>
+      <a href="https://drive.google.com/file/d/1uSuUOjLLXvBJCEZx2Z3cVRRPvW3IcS_l/view?usp=share_link" target="_blank" className='btn btn-warning w-75 text-light'>Hire me</a>
       <div className="i-icons">
         <img src="https://firebasestorage.googleapis.com/v0/b/chat1-b013f.appspot.com/o/github.png?alt=media&token=396f4dd6-f94d-4792-97e3-952bd7d32896" alt="Github" />
 
