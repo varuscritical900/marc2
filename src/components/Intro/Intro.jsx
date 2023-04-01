@@ -17,11 +17,16 @@ const Intro = () => {
       {/* <button className="button i-button">Hire me</button> */}
       <a href="https://drive.google.com/file/d/1uSuUOjLLXvBJCEZx2Z3cVRRPvW3IcS_l/view?usp=share_link" target="_blank" className='btn btn-warning w-50 text-light'>Hire me</a>
       <div className="i-icons">
+
+        <a href="https://github.com/varuscritical900" target="_blank">
         <img src="https://firebasestorage.googleapis.com/v0/b/chat1-b013f.appspot.com/o/github.png?alt=media&token=396f4dd6-f94d-4792-97e3-952bd7d32896" alt="Github" />
+        </a>
 
-        <img src="https://firebasestorage.googleapis.com/v0/b/chat1-b013f.appspot.com/o/linkedin.png?alt=media&token=1ef2adb2-88e1-4739-9753-1711388a56a7" alt="LinkedIn" />
+        <a href="https://www.linkedin.com/in/marc-james-montero-853119172/" target="_blank"><img src="https://firebasestorage.googleapis.com/v0/b/chat1-b013f.appspot.com/o/linkedin.png?alt=media&token=1ef2adb2-88e1-4739-9753-1711388a56a7" alt="LinkedIn" /></a>
 
-        <img src="https://firebasestorage.googleapis.com/v0/b/chat1-b013f.appspot.com/o/instagram.png?alt=media&token=2db0e421-9e51-4b61-88cf-5ba492ca7a02" alt="Instagram" />
+        <a href="https://www.facebook.com/marcmontero07" target="_blank">
+        <img src="https://firebasestorage.googleapis.com/v0/b/chat1-b013f.appspot.com/o/facebookyellow.png?alt=media&token=6eef4355-7742-4e2f-b538-43253e7b6de6" alt="Facebook" />
+        </a>
       </div>
 
       </div>
@@ -43,7 +48,7 @@ const Intro = () => {
             transition={transition}
         className="floating-div"
         style={{top: '-4%', left: '68%'}}> 
-          <FloatingDiv image="https://firebasestorage.googleapis.com/v0/b/chat1-b013f.appspot.com/o/crown.png?alt=media&token=63259bf4-2b17-4c07-9c33-12b1cc62a19c" txt1='Web' txt2='Developer'/>
+          <FloatingDiv image="https://firebasestorage.googleapis.com/v0/b/chat1-b013f.appspot.com/o/crown.png?alt=media&token=63259bf4-2b17-4c07-9c33-12b1cc62a19c" txt1='Full-Stack' txt2='Developer'/>
         </motion.div>
 
         <motion.div 
