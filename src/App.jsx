@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Navbar from './components/Navbar';
+import ProjectDisplay from './pages/ProjectDisplay';
 import Footer from './components/Footer';
 
 import './App.css'
@@ -20,6 +21,7 @@ function App() {
         <Route exact path="/" element={<Home/>}/>
         <Route exact path="/home" element={<Home/>}/>
         <Route exact path="/projects" element={<Projects/>}/>
+        <Route path="/project/:id" element={<ProjectDisplay />} />
         </Routes>
         <Footer/>
       </Router>

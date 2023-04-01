@@ -15,7 +15,7 @@ const Intro = () => {
         <span>From front-end finesse to back-end brilliance, I'm a full-stack developer <br/>ready to code my way to the top</span>
       </div>
       {/* <button className="button i-button">Hire me</button> */}
-      <a href="https://drive.google.com/file/d/1uSuUOjLLXvBJCEZx2Z3cVRRPvW3IcS_l/view?usp=share_link" target="_blank" className='btn btn-warning w-75 text-light'>Hire me</a>
+      <a href="https://drive.google.com/file/d/1uSuUOjLLXvBJCEZx2Z3cVRRPvW3IcS_l/view?usp=share_link" target="_blank" className='btn btn-warning w-50 text-light'>Hire me</a>
       <div className="i-icons">
         <img src="https://firebasestorage.googleapis.com/v0/b/chat1-b013f.appspot.com/o/github.png?alt=media&token=396f4dd6-f94d-4792-97e3-952bd7d32896" alt="Github" />
 
@@ -33,7 +33,7 @@ const Intro = () => {
         
         <motion.img 
         initial={{ left: "-36%" }}
-        whileInView={{ left: "-24%" }}
+        whileInView={{ left: "-7%" }}
         transition={transition}
         src="https://firebasestorage.googleapis.com/v0/b/chat1-b013f.appspot.com/o/glassesimoji.png?alt=media&token=632ff2fd-dc6d-492d-ab5a-5630bc3f117b" alt="" />
 
@@ -54,7 +54,6 @@ const Intro = () => {
         style={{top: '18rem', left: '0rem'}}> 
           <FloatingDiv image="https://firebasestorage.googleapis.com/v0/b/chat1-b013f.appspot.com/o/thumbup.png?alt=media&token=ed6b2406-393a-4aff-83c6-a62ca1dac595" txt1='Best Design' txt2='Award'/>
         </motion.div>
-                    {/* blur divs */}
 
       </div>
     </div>
