@@ -15,7 +15,7 @@ const ProjectDisplay = () => {
       <b>Skills:</b> {project.skills}
       
     </p>
-    {/* <a href={project.sourceCode} target="_blank"><GitHubIcon /></a> */}
+    <a href={project.sourceCode} target="_blank"><b>Source Code</b></a>
   </div>
   )
 }

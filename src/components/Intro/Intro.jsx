@@ -57,7 +57,7 @@ const Intro = () => {
         transition={transition}
         className="floating-div"
         style={{top: '18rem', left: '0rem'}}> 
-          <FloatingDiv image="https://firebasestorage.googleapis.com/v0/b/chat1-b013f.appspot.com/o/thumbup.png?alt=media&token=ed6b2406-393a-4aff-83c6-a62ca1dac595" txt1='Best Design' txt2='Award'/>
+          <FloatingDiv image="https://firebasestorage.googleapis.com/v0/b/chat1-b013f.appspot.com/o/thumbup.png?alt=media&token=ed6b2406-393a-4aff-83c6-a62ca1dac595" txt1='Tech-savvy &' txt2='Solution-driven'/>
         </motion.div>
 
       </div>
