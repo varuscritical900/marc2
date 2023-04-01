@@ -1,0 +1,63 @@
+import React from 'react'
+import "./intro.css"
+import FloatingDiv from '../FloatingDiv/FloatingDiv'
+import {motion} from 'framer-motion';
+
+const Intro = () => {
+  const transition  = {duration : 2, type: 'spring'}
+  return (
+    <div className="intro container">
+      <div className="i-left">
+      <div className="i-name">
+        <span>Hiya! I Am</span>
+        <span>Marc James Montero</span>
+        <span>Full-Stack Developer with high level of experience in web developing and deployment of the product</span>
+      </div>
+      {/* <button className="button i-button">Hire me</button> */}
+      <a href="" target="_blank" className='btn btn-warning w-25 text-light'>Hire me</a>
+      <div className="i-icons">
+        <img src="https://firebasestorage.googleapis.com/v0/b/chat1-b013f.appspot.com/o/github.png?alt=media&token=396f4dd6-f94d-4792-97e3-952bd7d32896" alt="Github" />
+
+        <img src="https://firebasestorage.googleapis.com/v0/b/chat1-b013f.appspot.com/o/linkedin.png?alt=media&token=1ef2adb2-88e1-4739-9753-1711388a56a7" alt="LinkedIn" />
+
+        <img src="https://firebasestorage.googleapis.com/v0/b/chat1-b013f.appspot.com/o/instagram.png?alt=media&token=2db0e421-9e51-4b61-88cf-5ba492ca7a02" alt="Instagram" />
+      </div>
+
+      </div>
+      
+      <div className='i-right'>
+        <img src="https://firebasestorage.googleapis.com/v0/b/chat1-b013f.appspot.com/o/Vector1.png?alt=media&token=c91ddcb9-7b4c-4d8e-b76b-ff99a7d919e7" alt="" />
+        <img src="https://firebasestorage.googleapis.com/v0/b/chat1-b013f.appspot.com/o/Vector2.png?alt=media&token=45024c8c-b879-4c81-b1e2-2d6b707382f1" alt="" />
+        <img src="https://firebasestorage.googleapis.com/v0/b/chat1-b013f.appspot.com/o/ProfilePicture.jpg?alt=media&token=0e4cf914-50a1-49f4-ba7b-c73f2bfb745c" alt="" style={{width:250, height:350, borderRadius: 50, opacity:0.9}}/>
+        
+        <motion.img 
+        initial={{ left: "-36%" }}
+        whileInView={{ left: "-24%" }}
+        transition={transition}
+        src="https://firebasestorage.googleapis.com/v0/b/chat1-b013f.appspot.com/o/glassesimoji.png?alt=media&token=632ff2fd-dc6d-492d-ab5a-5630bc3f117b" alt="" />
+
+        <motion.div  
+            initial={{ top: "-4%", left: "74%" }}
+            whileInView={{ left: "68%" }}
+            transition={transition}
+        className="floating-div"
+        style={{top: '-4%', left: '68%'}}> 
+          <FloatingDiv image="https://firebasestorage.googleapis.com/v0/b/chat1-b013f.appspot.com/o/crown.png?alt=media&token=63259bf4-2b17-4c07-9c33-12b1cc62a19c" txt1='Web' txt2='Developer'/>
+        </motion.div>
+
+        <motion.div 
+        initial={{ left: "9rem", top: "18rem" }}
+        whileInView={{ left: "0rem" }}
+        transition={transition}
+        className="floating-div"
+        style={{top: '18rem', left: '0rem'}}> 
+          <FloatingDiv image="https://firebasestorage.googleapis.com/v0/b/chat1-b013f.appspot.com/o/thumbup.png?alt=media&token=ed6b2406-393a-4aff-83c6-a62ca1dac595" txt1='Best Design' txt2='Award'/>
+        </motion.div>
+                    {/* blur divs */}
+
+      </div>
+    </div>
+  )
+}
+
+export default Intro

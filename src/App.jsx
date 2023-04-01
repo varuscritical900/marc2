@@ -23,14 +23,6 @@ function App() {
         </Routes>
         <Footer/>
       </Router>
-
-    {/* <Router>
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/home" element={<Home />} />
-        </Routes>
-        <Footer/>
-      </Router> */}
     </div>
   )
 }
