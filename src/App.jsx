@@ -7,6 +7,7 @@ import Projects from './pages/Projects';
 import Navbar from './components/Navbar';
 import ProjectDisplay from './pages/ProjectDisplay';
 import Footer from './components/Footer';
+import Contact from './pages/Contact';
 
 import './App.css'
 
@@ -22,6 +23,7 @@ function App() {
         <Route exact path="/home" element={<Home/>}/>
         <Route exact path="/projects" element={<Projects/>}/>
         <Route path="/project/:id" element={<ProjectDisplay />} />
+        <Route exact path="/contact" element={<Contact/>}/>
         </Routes>
         <Footer/>
       </Router>

@@ -4,7 +4,7 @@
   margin-top: 6rem;
 }
 
-/* left side styling */
+/* left side*/
 .i-left {
   display: flex;
   position: relative;
@@ -17,42 +17,22 @@
   flex-direction: column;
   gap: 0.25rem;
 }
-.i-name > :nth-child(1) {
-  color: var(--black);
-  font-weight: bold;
-  font-size: 3rem;
-}
-.i-name > :nth-child(2) {
-  color: var(--orange);
-  font-weight: bold;
-  font-size: 3rem;
-}
-.i-name>:nth-child(3) {
-  font-weight: 100;
-  font-size: 14px;
-  color: var(--gray);
-  margin-top: 10px;
-}
-.button {
-  background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
-  box-shadow: 0px 20px 24px 3px rgba(251, 161, 40, 0.42);
-  border-radius: 34px;
-  border: none;
-  color: white;
-  font-size: 16px;
-  padding: 11px 26px 11px 26px;
-}
-
-.button:hover {
-  background: white;
-  cursor: pointer;
-  border: 1px solid var(--orange);
-  color: var(--orange);
-}
-.i-button {
-  width: 6rem;
-  height: 2rem;
-}
+  .i-name > :nth-child(1) {
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  .i-name > :nth-child(2) {
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  .i-name>:nth-child(3) {
+    font-weight: 100;
+    font-size: 14px;
+    color: var(--gray);
+    margin-top: 10px;
+  }
 .i-icons {
   margin-top: 3rem;
   display: flex;
@@ -64,7 +44,8 @@
 .i-icons > *:hover {
   cursor: pointer;
 }
-/* right side styling */
+
+/* right side*/
 .i-right {
   flex: 1;
   position: relative;
@@ -96,12 +77,6 @@
 }
 
 
-/* .App{
-  padding: 0.5rem 3.5rem;
-  overflow: hidden;
-  color: var(--black);    
-} */
-
 @media screen and (max-width: 480px) {
   .intro {
     flex-direction: column;
@@ -126,9 +101,6 @@
 }
 
 .i-right > :nth-child(2) {
-  /* top: -4.6rem;
-  transform: scale(0.67);
-  left: -3rem; */
   height: 405px;
 }
 .i-right > :nth-child(3) {
@@ -138,7 +110,6 @@
     display: none;
   }
   .floating-div:nth-of-type(1){
-    /* display: none; */
     top: -7rem !important;;
   }
 }
@@ -167,9 +138,6 @@
 }
 
 .i-right > :nth-child(2) {
-  /* top: -4.6rem;
-  transform: scale(0.67);
-  left: -3rem; */
   height: 605px;
 }
 .i-right > :nth-child(3) {
