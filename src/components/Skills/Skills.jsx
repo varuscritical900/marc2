@@ -4,7 +4,7 @@ import "./skills.css";
 
 const Skills = () => {
   return (
-    <div className="skills mt-5">
+    <div className="skills mt-5" id="skills">
     <h1 className="fs-1 fw-bold"> Skills</h1>
     {/* <ol className="list">
     <li className="item mb-5">

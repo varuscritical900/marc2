@@ -18,6 +18,7 @@ const Footer = () => {
       <li className="ms-3"><a className="text-muted" href="https://github.com/varuscritical900" target="_blank"><svg className="bi" width="24" height="24"><FaGithub/></svg></a></li>
       <li className="ms-3"><a className="text-muted" href="https://www.linkedin.com/in/marc-james-montero-853119172/" target="_blank"><svg className="bi" width="24" height="24"><FaLinkedin/></svg></a></li>
       <li className="ms-3"><a className="text-muted" href="https://www.facebook.com/marcmontero07" target="_blank"><svg className="bi" width="24" height="24"><FaFacebook/></svg></a></li>
+      
     </ul>
     
 

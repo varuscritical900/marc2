@@ -12,7 +12,7 @@ const Intro = () => {
       <div className="i-name">
         <span>Hiya! I Am</span>
         <span>Marc James Montero</span>
-        <span>From front-end finesse to back-end brilliance, I'm a full-stack developer <br/>ready to code my way to the top</span>
+        <span>From front-end finesse to back-end brilliance, I'm a full-stack developer ready to code my way to the top</span>
       </div>
       {/* <button className="button i-button">Hire me</button> */}
       <a href="https://drive.google.com/file/d/1uSuUOjLLXvBJCEZx2Z3cVRRPvW3IcS_l/view?usp=share_link" target="_blank" className='btn btn-warning w-50 text-light'>Hire me</a>
@@ -44,10 +44,10 @@ const Intro = () => {
 
         <motion.div  
             initial={{ top: "-4%", left: "74%" }}
-            whileInView={{ left: "68%" }}
+            whileInView={{ left: "47%" }}
             transition={transition}
         className="floating-div"
-        style={{top: '-4%', left: '68%'}}> 
+        style={{top: '-4%', left: '47%'}}> 
           <FloatingDiv image="https://firebasestorage.googleapis.com/v0/b/chat1-b013f.appspot.com/o/crown.png?alt=media&token=63259bf4-2b17-4c07-9c33-12b1cc62a19c" txt1='Full-Stack' txt2='Developer'/>
         </motion.div>
 
