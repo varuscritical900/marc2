@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link, useLocation } from 'react-router-dom';
-// import {AiOutlineMail} from 'react-icons/Ai';
 
 const Navbar = () => {
   return (
@@ -14,9 +13,8 @@ const Navbar = () => {
       <div className="navbar-nav">
         <Link to="/home" className="nav-link active" aria-current="page" >Home</Link>
         <Link to="/projects" className="nav-link">Projects</Link>
-        <Link to="/contact" className="nav-link">Mail Me</Link>
+        <Link to="/contact" className="nav-link">Contact</Link>
       </div>
-      {/* <Link to="/contact" className="nav-link"><AiOutlineMail style={{width:30, height:30,opacity:0.9}}/></Link> */}
     </div>
   </div>
 </nav>

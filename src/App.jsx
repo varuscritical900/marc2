@@ -8,6 +8,7 @@ import Navbar from './components/Navbar';
 import ProjectDisplay from './pages/ProjectDisplay';
 import Footer from './components/Footer';
 import Contact from './pages/Contact';
+import PageNotFound from './pages/PageNotFound';
 
 import './App.css'
 
@@ -24,6 +25,7 @@ function App() {
         <Route exact path="/projects" element={<Projects/>}/>
         <Route path="/project/:id" element={<ProjectDisplay />} />
         <Route exact path="/contact" element={<Contact/>}/>
+        <Route path='*' element={<PageNotFound/>}/>
         </Routes>
         <Footer/>
       </Router>

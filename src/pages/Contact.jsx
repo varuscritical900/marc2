@@ -47,6 +47,12 @@ const Contact = () => {
     <div className="carousel-item">
       <img src="https://firebasestorage.googleapis.com/v0/b/chat1-b013f.appspot.com/o/Project%20Making.png?alt=media&token=9519147f-18b5-4d59-8cad-58fc4738b643"  className="d-block w-100" alt="" />
     </div>
+    <div className="carousel-item">
+      <img src="https://firebasestorage.googleapis.com/v0/b/chat1-b013f.appspot.com/o/montero%2C%20marc_5star.png?alt=media&token=92af11fd-8707-40ed-9769-9909f7c0354e"  className="d-block w-100" alt="" />
+    </div>
+    <div className="carousel-item">
+      <img src="https://firebasestorage.googleapis.com/v0/b/chat1-b013f.appspot.com/o/montero%2C%20marc%20james_top.png?alt=media&token=a2dca9da-2445-4931-a72e-d20b0eb364f2"  className="d-block w-100" alt="" />
+    </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
