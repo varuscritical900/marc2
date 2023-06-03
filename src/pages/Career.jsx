@@ -18,7 +18,7 @@ const Career = () => {
 		<div className="timeline-content">
 			{/* <i className="fa fa-map-marker"></i> */}
             <i className="fa fa-briefcase"></i>
-			<h4>Thurston Software Solution Inc.</h4>
+			<a href="http://thurstonsoft.com/" target='_blank' class="text-decoration-none text-dark"><h4>Thurston Software Solution Inc.</h4></a>
             <h5>• Associate Software Developer</h5>
 
 			<p>As a Associate Software Developer, I hold an entry-level position focused on software development and programming. My primary expertise lies in utilizing technologies such as C#, .NET, MS SQL, and MongoDB. In this role, I am actively involved in various stages of the software development life cycle, working alongside senior developers and team members.</p>
@@ -31,7 +31,8 @@ const Career = () => {
 		<div className="timeline-dot green-one-bg"></div>
 		<div className="timeline-content green-one">
 			<i className="fa fa-briefcase"></i>
-			<h4>Concentrix</h4>
+            <a href="https://www.concentrix.com/" target='_blank' class="text-decoration-none text-dark">
+			<h4>Concentrix</h4></a>
             <h5>• Customer Service Representative</h5>
 			<p>
             During my tenure as a Customer Service Representative at Concentrix, I had the opportunity to handle the "TripAdvisor" account, where I provided exceptional assistance to customers who encountered problems with their excursions.
@@ -45,7 +46,8 @@ const Career = () => {
 		<div className="timeline-dot green-two-bg"></div>
 		<div className="timeline-content green-two">
 			<i className="fa fa-briefcase"></i>
-			<h4>IBEX Global</h4>
+            <a href="https://www.ibex.co/" target='_blank' class="text-decoration-none text-dark">
+			<h4>IBEX Global</h4></a>
             <h5>• Customer Service Representative</h5>
 			<p>During my tenure as a Customer Service Representative at IBEX Global, I had the opportunity to handle accounts such as "Sigma Loyalty Group" and "Amazon," where I provided exceptional customer service and support. I consistently demonstrated a customer-centric approach, effective problem-solving skills, and a commitment to providing exceptional support to both the Sigma Loyalty Group and Amazon accounts. 
             </p>
@@ -88,10 +90,6 @@ const Career = () => {
 			<h4>Global Info. Quest Strategies INC.</h4>
             <h5>• Data Encoder</h5>
 			<p className="no-margin">As a Data Encoder at Global Info Quest Strategies INC. from January 08, 2008, to January 11, 2010, I played a crucial role in accurately and efficiently entering and managing data for the organization. With a strong attention to detail and a commitment to data integrity, I contributed to the seamless functioning of data management systems within the company.</p>
-			<div>
-				<span className="badge badge-light">Labels</span>
-				<span className="badge badge-light">Filters</span>
-			</div>
 		</div>
 	</div>
 	<div className="timeline-row">
