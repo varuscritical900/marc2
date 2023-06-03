@@ -84,7 +84,7 @@ const Career = () => {
 		</div>
 		<div className="timeline-dot teal-bg"></div>
 		<div className="timeline-content teal">
-			<i className="fa fa-coffee"></i>
+			<i className="fa fa-briefcase"></i>
 			<h4>Global Info. Quest Strategies INC.</h4>
             <h5>• Data Encoder</h5>
 			<p className="no-margin">As a Data Encoder at Global Info Quest Strategies INC. from January 08, 2008, to January 11, 2010, I played a crucial role in accurately and efficiently entering and managing data for the organization. With a strong attention to detail and a commitment to data integrity, I contributed to the seamless functioning of data management systems within the company.</p>
@@ -98,16 +98,6 @@ const Career = () => {
 		<div className="timeline-time">
 			12:30 PM<small>May 25</small>
 		</div>
-		{/* <div className="timeline-dot sea-green-bg"></div>
-		<div className="timeline-content sea-green">
-			<i className="fa fa-image"></i>
-			<h4>Milestone dashboard</h4>
-			<p>Milestone Admin Dashboard contains Ion slider, heatmap, alerts, breadcrumbs, alerts, pricing, signup, login and register.</p>
-			<div>
-				<span className="badge badge-light">BS 4</span>
-				<span className="badge badge-light">Sass</span>
-			</div>
-		</div> */}
 	</div>
 
 
