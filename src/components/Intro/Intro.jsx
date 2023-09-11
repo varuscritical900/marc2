@@ -15,7 +15,7 @@ const Intro = () => {
         <span>From front-end finesse to back-end brilliance, I'm a full-stack developer ready to code my way to the top</span>
       </div>
       {/* <button className="button i-button">Hire me</button> */}
-      <a href="https://drive.google.com/file/d/1uSuUOjLLXvBJCEZx2Z3cVRRPvW3IcS_l/view?usp=share_link" target="_blank" className='btn btn-warning w-50 text-light'>Hire me</a>
+      <a href="https://drive.google.com/file/d/1dLWY4kywOumgZhu5kw__yGpNuESUzDvp/view?usp=sharing" target="_blank" className='btn btn-warning w-50 text-light'>Hire me</a>
       <div className="i-icons">
 
         <a href="https://github.com/varuscritical900" target="_blank">

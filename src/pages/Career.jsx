@@ -26,7 +26,7 @@ const Career = () => {
                                 </div>
                                 <div className="timeline-row">
                                     <div className="timeline-time">
-                                        2022 - 2023<small>June 2022 to May 2023</small>
+                                        2022 - 2023<small>June 2022 to August 2023</small>
                                     </div>
                                     <div className="timeline-dot green-one-bg"></div>
                                     <div className="timeline-content green-one">
