@@ -48,9 +48,11 @@ const Skills = () => {
           <img src="https://firebasestorage.googleapis.com/v0/b/chat1-b013f.appspot.com/o/bootstrap.png?alt=media&token=37369fc3-22ce-479e-83d8-c0bcc4e01003" className="img-fluid rounded-circle mx-1" alt="..."/>
           <img src="https://firebasestorage.googleapis.com/v0/b/chat1-b013f.appspot.com/o/npm-icon-512x512-qtfdrf37.png?alt=media&token=fb91b683-0558-4dd4-999c-5f88883b8011" className="img-fluid rounded-circle mx-1" alt="..."/>
           <img src="https://firebasestorage.googleapis.com/v0/b/chat1-b013f.appspot.com/o/materialui.png?alt=media&token=0de5a392-def4-4b23-819e-5ba2fe93d94e" className="img-fluid rounded-circle mx-1" alt="..."/>
+          <img src="https://firebasestorage.googleapis.com/v0/b/uploadingfile-e9bff.appspot.com/o/5847ea22cef1014c0b5e4833.png?alt=media&token=1a74a5f6-09ff-4bbc-be30-9858d4b2b413" className="img-fluid rounded-circle mx-1" alt="..."/>
+          <img src="https://firebasestorage.googleapis.com/v0/b/uploadingfile-e9bff.appspot.com/o/147144692-50624d81-cb56-4fc3-ab25-5d712818c1d3.png?alt=media&token=9be4b60c-9359-4eda-bbb1-f9a3dd8eb246" className="img-fluid rounded-circle mx-1" alt="..."/>
           </div>
           ReactJS, HTML, CSS, React Native, NPM,
-          BootStrap, MaterialUI
+          BootStrap, MaterialUI, Angular, Blazor
         </span>
       </li>
       <li className="item mb-5">
