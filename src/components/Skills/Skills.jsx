@@ -51,8 +51,8 @@ const Skills = () => {
           <img src="https://firebasestorage.googleapis.com/v0/b/uploadingfile-e9bff.appspot.com/o/5847ea22cef1014c0b5e4833.png?alt=media&token=1a74a5f6-09ff-4bbc-be30-9858d4b2b413" className="img-fluid rounded-circle mx-1" alt="..."/>
           <img src="https://firebasestorage.googleapis.com/v0/b/uploadingfile-e9bff.appspot.com/o/147144692-50624d81-cb56-4fc3-ab25-5d712818c1d3.png?alt=media&token=9be4b60c-9359-4eda-bbb1-f9a3dd8eb246" className="img-fluid rounded-circle mx-1" alt="..."/>
           </div>
-          ReactJS, HTML, CSS, React Native, NPM,
-          BootStrap, MaterialUI, Angular, Blazor
+          • ReactJS, • HTML, • CSS, • React Native, • NPM,
+          • BootStrap, • MaterialUI, • Angular, • Blazor
         </span>
       </li>
       <li className="item mb-5">
@@ -70,8 +70,8 @@ const Skills = () => {
           <img src="https://firebasestorage.googleapis.com/v0/b/chat1-b013f.appspot.com/o/msSql.png?alt=media&token=c57c317a-c079-44d5-91e6-dce24878dd70" className="img-fluid rounded-circle mx-1" alt="..."/>
           <img src="https://firebasestorage.googleapis.com/v0/b/chat1-b013f.appspot.com/o/ASP.png?alt=media&token=f9225144-68d2-424e-9289-105fcf7c1dbf" className="img-fluid rounded-circle mx-1" alt="..."/>
           </div>
-          NodeJS, ExpressJS, Laravel,
-          MySQL, MongoDB, MS SQL, ASP.NET MVC
+          • NodeJS, • ExpressJS, • Laravel,
+          • MySQL, • MongoDB, • MS SQL, • ASP.NET • MVC
         </span>
       </li>
       <li className="item">
@@ -86,7 +86,21 @@ const Skills = () => {
           </div>
           
           
-          JavaScript, Java, C#, PHP
+          • JavaScript, • Java, • C#, • PHP
+          </span>
+      </li>
+      <li className="item">
+        <br/>
+        <h2>Other Skills</h2>
+        <span>
+        <div className="container flex-md-row flex-sm-row">
+          <img src="https://firebasestorage.googleapis.com/v0/b/uploadingfile-e9bff.appspot.com/o/Telerik-social.jpg?alt=media&token=37ee3d1b-33a2-4a6f-b93a-aea0510c1b35" className="img-fluid rounded-circle mx-1" alt="HTML"/>
+          <img src="https://firebasestorage.googleapis.com/v0/b/uploadingfile-e9bff.appspot.com/o/Introduction-to-SSRS-740X296.jpg?alt=media&token=970ab4de-ebc6-4129-8acc-feaf30e04c89" className="img-fluid rounded-circle mx-1" alt="HTML"/>
+
+          </div>
+          
+          
+          • Telerik Reporting, • SQL Server Reporting Services (SSRS)
           </span>
       </li>
     </ol>
